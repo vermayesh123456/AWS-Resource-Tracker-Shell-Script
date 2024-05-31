@@ -1,70 +1,62 @@
-🌟 AWS Resource Tracker Shell Script 🌟
+__🌟 AWS Resource Tracker Shell Script 🌟__
 
 
 Automate the tracking of your AWS resources with this powerful shell script! Set it up to run every 30 or 20 minutes, and get detailed emails with the latest resource status.
 
-🚀 Features:
+__🚀 Features:__
 
 Automated Resource Tracking: Schedule the script to run at your desired intervals.
 
 Email Notifications: Integrate a mail transfer agent to receive detailed reports after every execution.
 
-🛠️ Steps to Automate the Script
+__🎉 Getting Started__
 
 
-1. Set Up Crontab
+__Clone the repository:__
+
+
+git clone
+`https://github.com/vermayesh123456/AWS-Resource-Tracker-Shell-Script
+.git`
+
+
+__Navigate to the directory__
+
+`cd AWS-Resource-Tracker-Shell-Script`
+
+
+__Make the script executable:__
+
+`chmod 777 aws_resource_tracker.sh`
+
+
+__🛠️ Steps to Automate the Script__
+
+
+__1. Set Up Crontab__
 Use crontab to schedule your script:
-crontab -e
+`crontab -e`
 
 
-2. Add the Job to Your Crontab File
+__2. Add the Job to Your Crontab File__
 Add the following line to run the script every minute:
-"* * * * * /home/ubuntu/aws_resource_tracker.sh"
+`* * * * * /home/ubuntu/aws_resource_tracker.sh`
 
 
-4. Save and Exit
-Save the file: Press 'CTRL+O'
-Exit the file: Press 'CTRL+X'
+__4. Save and Exit__
+Save the file: Press `CTRL+O`
+Exit the file: Press `CTRL+X`
 
 
-6. Verify the Automation
+__6. Verify the Automation__
 Check the logs to ensure your automation is working:
-grep CRON /var/log/syslog
+`grep CRON /var/log/syslog`
 
 
 
 Feel free to reach out if you encounter any issues or need further assistance! 🚀
 
-
-
-
-
-
-
-
-🎉 Getting Started
-
-
-Clone the repository:
-
-
-git clone
-https://github.com/vermayesh123456/AWS-Resource-Tracker-Shell-Script
-.git
-
-
-Navigate to the directory:
-
-cd AWS-Resource-Tracker-Shell-Script
-
-
-Make the script executable:
-
-chmod 777 aws_resource_tracker.sh
-
-
-
-🎉Thankyou
+*__🎉Thankyou__*
 
 
 🏆 AWS Resource Tracker Shell Script 🏆
