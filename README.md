@@ -43,12 +43,28 @@ Feel free to reach out if you encounter any issues or need further assistance! �
 
 
 🎉 Getting Started
+
+
 Clone the repository:
-git clone https://github.com/vermayesh123456/AWS-Resource-Tracker-Shell-Script
+
+
+git clone
+https://github.com/vermayesh123456/AWS-Resource-Tracker-Shell-Script
 .git
+
+
 Navigate to the directory:
+
 cd AWS-Resource-Tracker-Shell-Script
+
+
 Make the script executable:
+
 chmod 777 aws_resource_tracker.sh
+
+
+
 🎉Thankyou
+
+
 🏆 AWS Resource Tracker Shell Script 🏆
