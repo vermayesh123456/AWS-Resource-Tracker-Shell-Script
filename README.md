@@ -6,6 +6,7 @@ Automate the tracking of your AWS resources with this powerful shell script! Set
 __🚀 Features:__
 
 Automated Resource Tracking: Schedule the script to run at your desired intervals.
+![AWS Resource Tracker](https://github.com/vermayesh123456/AWS-Resource-Tracker-Shell-Script/blob/main/Sample1.png)
 
 Email Notifications: Integrate a mail transfer agent to receive detailed reports after every execution.
 
